@@ -1,0 +1,27 @@
+{
+  "name": "caps-express",
+  "version": "1.0.0",
+  "description": "Express server handling caps events",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnneThor/caps-express.git"
+  },
+  "author": "Anne Thorsteinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnneThor/caps-express/issues"
+  },
+  "homepage": "https://github.com/AnneThor/caps-express#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.2",
+    "jest": "^26.6.3",
+    "socket.io": "^4.0.1"
+  }
+}
